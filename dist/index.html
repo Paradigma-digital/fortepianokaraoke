@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <meta name="title" content=" ">
+    <meta name="description" content="">
+
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <section class="top-form">
+        <div class="container">
+            <div class="top-form__wrapper">
+                <div class="top-form__media">
+                    <img src="img/media.png" alt="media">
+                    <div class="overlay">
+                        <div class="popup">
+                            <div id="player"></div>
+                        </div>
+                    </div>
+                </div>
+                <form class="top-form__form" action="" id="top-form">
+                    <h2 class="top-form__form_title">
+                        Хочешь также?
+                    </h2>
+                    <input type="text" name="topName" id="topName" placeholder="Ваше имя" data-validate-field="topName">
+                    <input type="tel" name="topTel" id="topTel" placeholder="+7 (XXX) XXX - XX - XX" data-validate-field="topTel">
+                    <button class="btn top-form__form_btn"><img src="img/top-form.png" alt="button"></button>
+                </form>
+            </div>
+        </div>
+    </section> 
+
+    <script defer src="js/inputmask.min.js"></script>
+    <script defer src="js/just-validate.min.js"></script>
+    <script defer src="js/script.js"></script>
+</body>
+</html>

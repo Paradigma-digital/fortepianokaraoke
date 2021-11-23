@@ -1,0 +1,22 @@
+@import 'libs/style_my_normolize.css';
+@import 'base/fonts';
+
+* {
+    transition: box-shadow 0.4s ease;
+}
+
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.fade{animation-name: fade;animation-duration: 0.7s;}
+.fadeOut{animation-name: fadeOut;animation-duration: 0.7s;}
+@keyframes fade{from{opacity: 0;}to{opacity: 1;}}
+@keyframes fadeOut{from{opacity: 1;}to{opacity: 0;}}
+
+@import 'blocks/top-form';
+@import 'blocks/media';
+
